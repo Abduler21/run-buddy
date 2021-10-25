@@ -94,7 +94,16 @@ footer a {
   color: #024e76;
 }
 /* Hero Style Start */
-
+.hero-form {
+  border: 3px solid #024e76;
+  background-color: #fce138;
+  padding: 20px;
+  width: 500px;
+  color: #024e76;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
 .hero {
 
   height: 600px;
@@ -102,7 +111,7 @@ footer a {
   background-position: center;
   position: relative;
 }
-
+/* Hero Style End */
 
 .hero-form {
   border: 3px solid #024e76;
@@ -111,7 +120,7 @@ footer a {
   width: 500px;
   color: #024e76;
   position: absolute;
-  bottom: 50px;
+  bottom: 120px;
   right: 140px;
 }
 .hero-form p {
@@ -300,4 +309,16 @@ trainer-bio h3 {
 
 /* REACH OUT STYLES END */
 
+.hero-secondary {
+  margin: 20px;
+  background-color: black;
+  font-size: 20px;
+  color: red;}
 
+  .hero {
+    margin: 20px;
+    font-size: 20px;
+    background-color: white;
+    color: blue;
+  }
+  
