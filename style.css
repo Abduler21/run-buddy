@@ -61,15 +61,18 @@ footer {
   background: #fce138;
   width: 100%;
   padding: 40px 35px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 footer h2 {
-  display: inline;
+  
   color: #024e76;
   font-size: 30px;
   margin: 0;
 }
 footer div {
-  float: right;
+  
   line-height: 3.0;
   text-align: right;
 }
@@ -77,22 +80,6 @@ footer a {
   color: #024e76;
 }
 
-
-/* Hero Style Start */
-.hero{
-  
-  height: 600px;
-}
-/* Hero Style End */
-
-/* Hero Style Start */
-.hero {
-  background-image: url(../run-buddy/assets/images/hero-bg.jpeg);
-  height: 600px;
-  background-size: cover;
-  background-position: center;
-}
-/* Hero Style End */
 
 .hero-form {
   background-color: #fce138;
@@ -103,11 +90,14 @@ footer a {
 /* Hero Style Start */
 
 .hero {
-
+  background-image: url(../run-buddy/assets/images/hero-bg.jpeg);
   height: 600px;
   background-size: cover;
   background-position: center;
   position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 
@@ -115,11 +105,9 @@ footer a {
   border: 3px solid #024e76;
   background-color: #fce138;
   padding: 20px;
-  width: 500px;
   color: #024e76;
-  position: absolute;
-  bottom: 50px;
-  right: 140px;
+  margin: 3.5%;
+  width: 40%;
 }
 .hero-form p {
   margin: 5px 0 15px 0;
@@ -304,6 +292,22 @@ trainer-bio h3 {
 .contact-info a {
   color: #fce138;
 }
+
+.hero-cta {
+  width: 35%;
+  text-align: right;
+  margin: 3.5%;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.hero-cta h2 {
+  font-style: italic;
+  font-size: 55px;
+  color: #fce138;
+}
+
 
 /* REACH OUT STYLES END */
 
