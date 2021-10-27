@@ -48,7 +48,7 @@ header nav ul li a {
 }
 
 section {
-  padding: 40px;
+  padding: 60px;
 }
 header h1 {
   font-weight: bold;
@@ -91,14 +91,12 @@ footer a {
 
 .hero {
   background-image: url(../run-buddy/assets/images/hero-bg.jpeg);
-  height: 600px;
   background-size: cover;
   background-position: center;
   position: relative;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  align-items: flex-start;
 
 }
 
@@ -110,6 +108,7 @@ footer a {
   color: #024e76;
   margin: 3.5%;
   width: 60%;
+  
 }
 .hero-form p {
   margin: 5px 0 15px 0;
@@ -161,11 +160,9 @@ footer a {
 }
 
 .section-title {
-  font-size: 48px;
+  font-size: 55px;
   color: #024e76;
   margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
-  display: inline-block;
   border-bottom: 3px solid;
   padding-bottom: 20px;
   text-align: center;
